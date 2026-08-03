@@ -1,0 +1,10 @@
+{
+  "type": "function",
+  "ownProps": [
+    "prototype",
+    "length",
+    "name"
+  ],
+  "keys": [],
+  "enumerableProps": []
+}

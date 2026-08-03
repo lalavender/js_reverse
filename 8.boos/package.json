@@ -1,0 +1,14 @@
+{
+  "name": "zhipin-stoken",
+  "version": "1.0.0",
+  "description": "BOSS直聘 job/detail.json __zp_stoken__ 签名还原：探针→生成token→同步cookie→请求，Node.js 独立运行",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "jsdom": "^29.1.1"
+  }
+}

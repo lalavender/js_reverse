@@ -1,0 +1,17 @@
+{
+  "IIΙ": "number=27188",
+  "IΙI": "number=26",
+  "IΙΙ": "function(_0x1233dd)",
+  "ΙII": "number=1",
+  "ΙIΙ": {
+    "0": "{346 keys} first: 0,1,eval,close,stop",
+    "0_type": "ENV_CONTAINER with 346 keys",
+    "0_sample": "0,1,eval,close,stop,focus,blur,open,alert,confirm",
+    "d": "number=2",
+    "$2": "{6 keys} first: 0,d,$2,$0,$1",
+    "$0": "Array(26)",
+    "$1": "{134 keys} first: 0,1,2,3,4",
+    "$1_type": "ENV_CONTAINER with 134 keys",
+    "$1_sample": "0,1,2,3,4,5,6,7,8,9"
+  }
+}

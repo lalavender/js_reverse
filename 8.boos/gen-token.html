@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>BOSS直聘 __zp_stoken__ 生成器</title>
+<style>
+body { font-family: -apple-system, sans-serif; max-width: 700px; margin: 40px auto; padding: 0 20px; }
+button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+pre { background: #f5f5f5; padding: 10px; overflow: auto; white-space: pre-wrap; word-break: break-all; }
+</style>
+</head>
+<body>
+<h2>BOSS直聘 __zp_stoken__ 生成器</h2>
+<p>在 zhipin.com 域下运行此页面（或直接在页面 console 执行下方 JS），
+生成新 token 后复制填入 <code>config/cookies.json</code>。</p>
+<button onclick="run()">生成 token</button>
+<pre id="out">等待执行...</pre>
+<script>
+async function run() {
+  const out = document.getElementById('out');
+  const base = 'https://www.zhipin.com/wapi/zpgeek/job/detail.json?securityId=XnHYo7u8Nl-ho-z1dRZiCc42VopBai7usAotMJx4uvkl97KU_AvLR0kWCsYgB4Z-GbUHpxR5wfVByYODcB1DVn8OhIYREVkyGJ4jIFaa21F7zR8t6EugalWl_ZnDgHJDmjpjHYIlpCqZ_-KB-DUnpo6XrrN6DqUj2Zu8q2u6zWT09fC3CdY__jqdEq14Ple8vZLAfygr0A4DdILqCM8vyZZtanIazH1Vj7u3Y7j7&lid=6VurF5o3MY6.search.1&_=';
+  try {
+    // 1. 清 cookie 后探针
+    ['__zp_stoken__','__zp_sseed__','__zp_sname__','__zp_sts__'].forEach(k => {
+      document.cookie = k + '=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/; domain=.zhipin.com';
+    });
+    const p = await fetch(base + Date.now(), { method: 'POST', headers: { 'content-type': 'application/json' }, body: '{}', credentials: 'include' });
+    const j = await p.json();
+    if (j.code !== 37 || !j.zpData) { out.textContent = '探针失败: ' + JSON.stringify(j).slice(0, 200); return; }
+    const seed = j.zpData.seed, ts = j.zpData.ts;
+
+    // 2. 加载 security-js
+    if (!window.ABC) {
+      await new Promise((res, rej) => {
+        const s = document.createElement('script');
+        s.src = 'https://www.zhipin.com/web/passport/zp/security-js/' + j.zpData.name + '.js';
+        s.onload = res; s.onerror = rej;
+        document.body.appendChild(s);
+      });
+    }
+
+    // 3. 生成 token
+    const tsAdj = Number(ts) + 60 * (480 + new Date().getTimezoneOffset()) * 1000;
+    const token = new window.ABC().z(seed, tsAdj);
+
+    // 4. 验证
+    document.cookie = '__zp_stoken__=' + encodeURIComponent(token) + '; path=/; domain=.zhipin.com';
+    document.cookie = '__zp_sseed__=' + seed + '; path=/; domain=.zhipin.com';
+    document.cookie = '__zp_sname__=' + j.zpData.name + '; path=/; domain=.zhipin.com';
+    document.cookie = '__zp_sts__=' + ts + '; path=/; domain=.zhipin.com';
+    const r = await fetch(base + Date.now(), { method: 'POST', headers: { 'accept': 'application/json, text/plain, */*', 'content-type': 'application/json', 'x-requested-with': 'XMLHttpRequest' }, body: '{}', credentials: 'include' });
+    const result = (await r.text()).slice(0, 80);
+
+    out.textContent = '验证结果: ' + result + '\n\n将以下内容填入 config/cookies.json：\n' +
+      JSON.stringify({ __zp_stoken__: token, __zp_stoken_encoded__: encodeURIComponent(token), expireAt: Date.now() + 26*24*3600*1000 }, null, 2);
+  } catch (e) {
+    out.textContent = '错误: ' + e.message;
+  }
+}
+</script>
+</body>
+</html>

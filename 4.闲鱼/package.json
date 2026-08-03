@@ -1,0 +1,12 @@
+{
+  "name": "goofish-mtop-sign",
+  "version": "1.0.0",
+  "private": true,
+  "description": "闲鱼 H5 MTOP 接口 sign 签名还原（纯协议 Node.js，零依赖）",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "verify": "node test/verify.js"
+  },
+  "license": "MIT"
+}

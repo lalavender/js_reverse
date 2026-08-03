@@ -1,0 +1,47 @@
+{
+  "ΙIΙ_keys": [
+    "0",
+    "d",
+    "$2",
+    "$0",
+    "$1",
+    "length"
+  ],
+  "$0_length": 26,
+  "$0_types": [
+    null,
+    "object:Object",
+    "window",
+    "undefined",
+    "object:Performance",
+    "function:encodeURIComponent",
+    "function:Array",
+    "function:TextEncoder",
+    "function:Date",
+    "object:Object",
+    "function:Uint8Array",
+    "document",
+    "function:setTimeout",
+    "function:RegExp",
+    "function:unescape",
+    "function:parseInt",
+    "function:Object",
+    "object:Navigator",
+    "null",
+    "function:Set",
+    "function:Function",
+    "function:String",
+    "function:Error",
+    "undefined",
+    "function:Event",
+    "object:Object"
+  ],
+  "env0_keys": 349,
+  "staticProps": [
+    "IIΙ",
+    "IΙI",
+    "IΙΙ",
+    "ΙII",
+    "ΙIΙ"
+  ]
+}

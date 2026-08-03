@@ -1,0 +1,25 @@
+{
+  "412_meta": {"id": "A2Kal8hczzgd", "content": "YvqaMORBnDx31rYWBuE2kkz0zd3EDTHrvAC3LgfLzzFW0gvK4RWxhNZRbbw6_bpVlag5WOaaBTqdHB4x"},
+  "412_ts": {"nsd": 88230, "cd_len": 2340},
+  "entry_call": "_$aR()",
+  "rs_js": "/NJ7TNwcMIDHl/xQaW6eAgumZY.c69d89a.js (文件名随机, 版本号 c69d89a 固定, 内容变体 x1/x2)",
+  "server_cookies": {
+    "acw_tc": "62hex WAF会话", "aliyungf_tc": "64hex WAF", "CHSICC01": "81ch 站点会话",
+    "35067579362dd9cd78": "32hex 动态名RS会话标记",
+    "goaYXsyEWlxdO_S": "88ch Secure+HttpOnly 10年 RS服务端标识"
+  },
+  "client_cookie_T": {
+    "name": "goaYXsyEWlxdP (= S名末位+1)",
+    "format": "\"0\" + Base64URL-safe",
+    "samples": [
+      {"len": 449, "prefix": "0Y_D4pXEpdM0zyedAMxH", "tail": "sKTd4mBEHGBvmCuGk4x0"},
+      {"len": 428, "prefix": "0VlHmFFjdNPjHosgNlhE", "tail": "UkI5.FQDqMI9Z4mj.0bg"},
+      {"len": 471, "prefix": "05Zb.nLQRvV2C_yMuJikB"}
+    ],
+    "encrypt_chain": "basearr(TLV环境指纹) -> Huffman -> XOR -> AES-128-CBC -> +CRC32 -> AES-128-CBC -> Base64URL",
+    "keys": "从 $_ts.cd (2340ch) XOR offset 推导45组密钥, 每次挑战变化",
+    "write_mechanism": "不走 document.cookie 标准setter (Hook零捕获), JSVMP内部写入"
+  },
+  "anti_tamper": "RS校验自身源码toString含debugger; 移除则变体卡死不生成cookie",
+  "final_flow": "GET 412 -> (Set-Cookie: S/acw_tc等) -> 解析meta+$_ts -> 加载RS JS -> 采集指纹+生成T -> location.replace -> 带acw_tc+S+T -> 200"
+}

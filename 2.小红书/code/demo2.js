@@ -1,0 +1,427 @@
+/**
+ * 小红书 window.mnsv2 执行完成后的浏览器环境快照
+ *
+ * 捕获时间: 2026-07-27T01:26:20.486Z
+ * 页面URL: https://www.xiaohongshu.com/explore
+ * 属性数: window.mnsv2.ΙIΙ[0] environment snapshot (346 properties) + browser env
+ *
+ * 用途: 在 Node.js 中补环境时引用此快照,
+ *       提供与浏览器一致的环境指纹
+ */
+module.exports = {
+  "_meta": {
+    "description": "window.mnsv2.ΙIΙ[0] environment snapshot (346 properties) + browser env",
+    "capturedAt": "2026-07-27T01:26:20.486Z",
+    "url": "https://www.xiaohongshu.com/explore"
+  },
+  "mnsv2_env": {
+    "0": "{\"close\":\"fn:close\",\"stop\":\"fn:stop\",\"focus\":\"fn:focus\",\"blur\":\"fn:blur\",\"open\":\"fn:open\",\"alert\":\"fn:alert\",\"confirm\":\"fn:confirm\",\"prompt\":\"fn:prompt\",\"print\":\"fn:print\",\"postMessage\":\"fn:postMessage\",\"captureEvents\":\"fn:captureEvents\",\"releaseEvents\":\"fn:releaseEvents\",\"getSelection\":\"fn:getSelection\",\"getComputedStyle\":\"fn:getComputedStyle\",\"matchMedia\":\"fn:matchMedia\",\"moveTo\":\"fn:moveTo\",\"moveBy\":\"fn:moveBy\",\"resizeTo\":\"fn:resizeTo\",\"resizeBy\":\"fn:resizeBy\",\"scroll\":\"fn:scroll\",\"scrollTo\":\"fn:scrollTo\",\"scrollBy\":\"fn:scrollBy\",\"getDefaultComputedStyle\":\"fn:getDefaultComputedStyle\",\"scrollByLines\":\"fn:scrollByLines\",\"scrollByPages\":\"fn:scrollByPages\",\"updateCommands\":\"fn:updateCommands\",\"find\":\"fn:find\",\"dump\":\"fn:dump\",\"setResizable\":\"fn:setResizable\",\"requestIdleCallback\":\"fn:requestIdleCallback\",\"cancelIdleCallback\":\"fn:cancelIdleCallback\",\"requestAnimationFrame\":\"fn:requestAnimationFrame\",\"cancelAnimationFrame\":\"fn:cancelAnimationFrame\",\"reportError\":\"fn:reportError\",\"btoa\":\"fn:btoa\",\"atob\":\"fn:atob\",\"setTimeout\":\"fn:setTimeout\",\"clearTimeout\":\"fn:clearTimeout\",\"setInterval\":\"fn:setInterval\",\"clearInterval\":\"fn:clearInterval\",\"queueMicrotask\":\"fn:queueMicrotask\",\"createImageBitmap\":\"fn:createImageBitmap\",\"structuredClone\":\"fn:structuredClone\",\"fetch\":\"fn:fetch\",\"self\":\"object\",\"name\":\"\",\"history\":\"object\",\"navigation\":\"object\",\"customElements\":\"object\",\"locationbar\":\"object\",\"menubar\":\"object\",\"personalbar\":\"object\",\"scrollbars\":\"object\",\"statusbar\":\"object\",\"toolbar...(+127 more)",
+    "1": "{\"close\":\"fn:close\",\"stop\":\"fn:stop\",\"focus\":\"fn:focus\",\"blur\":\"fn:blur\",\"open\":\"fn:open\",\"alert\":\"fn:alert\",\"confirm\":\"fn:confirm\",\"prompt\":\"fn:prompt\",\"print\":\"fn:print\",\"postMessage\":\"fn:postMessage\",\"captureEvents\":\"fn:captureEvents\",\"releaseEvents\":\"fn:releaseEvents\",\"getSelection\":\"fn:getSelection\",\"getComputedStyle\":\"fn:getComputedStyle\",\"matchMedia\":\"fn:matchMedia\",\"moveTo\":\"fn:moveTo\",\"moveBy\":\"fn:moveBy\",\"resizeTo\":\"fn:resizeTo\",\"resizeBy\":\"fn:resizeBy\",\"scroll\":\"fn:scroll\",\"scrollTo\":\"fn:scrollTo\",\"scrollBy\":\"fn:scrollBy\",\"getDefaultComputedStyle\":\"fn:getDefaultComputedStyle\",\"scrollByLines\":\"fn:scrollByLines\",\"scrollByPages\":\"fn:scrollByPages\",\"updateCommands\":\"fn:updateCommands\",\"find\":\"fn:find\",\"dump\":\"fn:dump\",\"setResizable\":\"fn:setResizable\",\"requestIdleCallback\":\"fn:requestIdleCallback\",\"cancelIdleCallback\":\"fn:cancelIdleCallback\",\"requestAnimationFrame\":\"fn:requestAnimationFrame\",\"cancelAnimationFrame\":\"fn:cancelAnimationFrame\",\"reportError\":\"fn:reportError\",\"btoa\":\"fn:btoa\",\"atob\":\"fn:atob\",\"setTimeout\":\"fn:setTimeout\",\"clearTimeout\":\"fn:clearTimeout\",\"setInterval\":\"fn:setInterval\",\"clearInterval\":\"fn:clearInterval\",\"queueMicrotask\":\"fn:queueMicrotask\",\"createImageBitmap\":\"fn:createImageBitmap\",\"structuredClone\":\"fn:structuredClone\",\"fetch\":\"fn:fetch\",\"self\":\"object\",\"name\":\"\",\"history\":\"object\",\"navigation\":\"object\",\"customElements\":\"object\",\"locationbar\":\"object\",\"menubar\":\"object\",\"personalbar\":\"object\",\"scrollbars\":\"object\",\"statusbar\":\"object\",\"toolbar...(+127 more)",
+    "eval": "function:eval(1 args)",
+    "close": "function:close(0 args)",
+    "stop": "function:stop(0 args)",
+    "focus": "function:focus(0 args)",
+    "blur": "function:blur(0 args)",
+    "open": "function:open(0 args)",
+    "alert": "function:alert(0 args)",
+    "confirm": "function:confirm(0 args)",
+    "prompt": "function:prompt(0 args)",
+    "print": "function:print(0 args)",
+    "postMessage": "function:postMessage(1 args)",
+    "captureEvents": "function:captureEvents(0 args)",
+    "releaseEvents": "function:releaseEvents(0 args)",
+    "getSelection": "function:getSelection(0 args)",
+    "getComputedStyle": "function:anon(0 args)",
+    "matchMedia": "function:matchMedia(1 args)",
+    "moveTo": "function:moveTo(2 args)",
+    "moveBy": "function:moveBy(2 args)",
+    "resizeTo": "function:resizeTo(2 args)",
+    "resizeBy": "function:resizeBy(2 args)",
+    "scroll": "function:scroll(0 args)",
+    "scrollTo": "function:anon(0 args)",
+    "scrollBy": "function:scrollBy(0 args)",
+    "getDefaultComputedStyle": "function:getDefaultComputedStyle(1 args)",
+    "scrollByLines": "function:scrollByLines(1 args)",
+    "scrollByPages": "function:scrollByPages(1 args)",
+    "updateCommands": "function:updateCommands(1 args)",
+    "find": "function:find(0 args)",
+    "dump": "function:dump(1 args)",
+    "setResizable": "function:setResizable(1 args)",
+    "requestIdleCallback": "function:requestIdleCallback(1 args)",
+    "cancelIdleCallback": "function:cancelIdleCallback(1 args)",
+    "requestAnimationFrame": "function:requestAnimationFrame(1 args)",
+    "cancelAnimationFrame": "function:cancelAnimationFrame(1 args)",
+    "reportError": "function:reportError(1 args)",
+    "btoa": "function:btoa(1 args)",
+    "atob": "function:atob(1 args)",
+    "setTimeout": "function:setTimeout(1 args)",
+    "clearTimeout": "function:clearTimeout(0 args)",
+    "setInterval": "function:setInterval(1 args)",
+    "clearInterval": "function:clearInterval(0 args)",
+    "queueMicrotask": "function:queueMicrotask(1 args)",
+    "createImageBitmap": "function:createImageBitmap(1 args)",
+    "structuredClone": "function:structuredClone(1 args)",
+    "fetch": "function:anon(0 args)",
+    "self": "[Circular]",
+    "name": "",
+    "history": "{\"pushState\":\"fn:eventHandler\",\"replaceState\":\"fn:eventHandler\"}",
+    "navigation": "{}",
+    "customElements": "{}",
+    "locationbar": "{}",
+    "menubar": "{}",
+    "personalbar": "{}",
+    "scrollbars": "{}",
+    "statusbar": "{}",
+    "toolbar": "{}",
+    "status": "",
+    "closed": "false",
+    "event": "undefined",
+    "frames": "[Circular]",
+    "length": "2",
+    "opener": "null",
+    "parent": "[Circular]",
+    "frameElement": "null",
+    "navigator": "{}",
+    "clientInformation": "{}",
+    "external": "{}",
+    "screen": "{}",
+    "innerWidth": "1317",
+    "innerHeight": "933",
+    "scrollX": "0",
+    "pageXOffset": "0",
+    "scrollY": "0",
+    "pageYOffset": "0",
+    "screenLeft": "-1918",
+    "screenTop": "274",
+    "screenX": "-1918",
+    "screenY": "274",
+    "outerWidth": "1920",
+    "outerHeight": "1050",
+    "performance": "{\"setupPolyfill\":\"fn:setupPolyfill\",\"setNavigationStart\":\"fn:anon\",\"clearResourceTimings\":\"fn:anon\",\"resourcesBufferCache\":\"object\"}",
+    "mozInnerScreenX": "-1918",
+    "mozInnerScreenY": "391",
+    "devicePixelRatio": "1",
+    "scrollMaxX": "0",
+    "scrollMaxY": "2753",
+    "fullScreen": "false",
+    "ondevicemotion": "null",
+    "ondeviceorientation": "null",
+    "ondeviceorientationabsolute": "null",
+    "InstallTrigger": "null",
+    "visualViewport": "{}",
+    "cookieStore": "{}",
+    "originAgentCluster": "false",
+    "documentPictureInPicture": "{}",
+    "crypto": "{}",
+    "onabort": "null",
+    "onblur": "null",
+    "onfocus": "null",
+    "oncancel": "null",
+    "onauxclick": "null",
+    "onbeforeinput": "null",
+    "onbeforematch": "null",
+    "onbeforetoggle": "null",
+    "oncanplay": "null",
+    "oncanplaythrough": "null",
+    "onchange": "null",
+    "onclick": "null",
+    "onclose": "null",
+    "oncontentvisibilityautostatechange": "null",
+    "oncontextlost": "null",
+    "oncontextmenu": "null",
+    "oncommand": "null",
+    "oncontextrestored": "null",
+    "oncopy": "null",
+    "oncuechange": "null",
+    "oncut": "null",
+    "ondblclick": "null",
+    "ondrag": "null",
+    "ondragend": "null",
+    "ondragenter": "null",
+    "ondragleave": "null",
+    "ondragover": "null",
+    "ondragstart": "null",
+    "ondrop": "null",
+    "ondurationchange": "null",
+    "onemptied": "null",
+    "onended": "null",
+    "onformdata": "null",
+    "oninput": "null",
+    "oninvalid": "null",
+    "onkeydown": "null",
+    "onkeypress": "null",
+    "onkeyup": "null",
+    "onload": "null",
+    "onloadeddata": "null",
+    "onloadedmetadata": "null",
+    "onloadstart": "null",
+    "onmousedown": "null",
+    "onmouseenter": "null",
+    "onmouseleave": "null",
+    "onmousemove": "null",
+    "onmouseout": "null",
+    "onmouseover": "null",
+    "onmouseup": "null",
+    "onwheel": "null",
+    "onpaste": "null",
+    "onpause": "null",
+    "onplay": "null",
+    "onplaying": "null",
+    "onprogress": "null",
+    "onratechange": "null",
+    "onreset": "null",
+    "onresize": "null",
+    "onscroll": "null",
+    "onscrollend": "null",
+    "onsecuritypolicyviolation": "null",
+    "onseeked": "null",
+    "onseeking": "null",
+    "onselect": "null",
+    "onslotchange": "null",
+    "onstalled": "null",
+    "onsubmit": "null",
+    "onsuspend": "null",
+    "ontimeupdate": "null",
+    "onvolumechange": "null",
+    "onwaiting": "null",
+    "onselectstart": "null",
+    "onselectionchange": "null",
+    "ontoggle": "null",
+    "onpointercancel": "null",
+    "onpointerdown": "null",
+    "onpointerup": "null",
+    "onpointermove": "null",
+    "onpointerout": "null",
+    "onpointerover": "null",
+    "onpointerenter": "null",
+    "onpointerleave": "null",
+    "onpointerrawupdate": "null",
+    "ongotpointercapture": "null",
+    "onlostpointercapture": "null",
+    "onmozfullscreenchange": "null",
+    "onmozfullscreenerror": "null",
+    "onanimationcancel": "null",
+    "onanimationend": "null",
+    "onanimationiteration": "null",
+    "onanimationstart": "null",
+    "ontransitioncancel": "null",
+    "ontransitionend": "null",
+    "ontransitionrun": "null",
+    "ontransitionstart": "null",
+    "onwebkitanimationend": "null",
+    "onwebkitanimationiteration": "null",
+    "onwebkitanimationstart": "null",
+    "onwebkittransitionend": "null",
+    "onerror": "function:handleError(5 args)",
+    "speechSynthesis": "{}",
+    "onafterprint": "null",
+    "…": "(+146 more keys)"
+  },
+  "mnsv2_extra": {
+    "d": "2",
+    "$2": "{\"0\":\"object\",\"d\":2,\"$2\":\"object\",\"$0\":\"object\",\"$1\":\"object\",\"length\":1}",
+    "$0": "[undefined,{},[Circular],undefined,{\"setupPolyfill\":\"fn:setupPolyfill\",\"setNavigationStart\":\"fn:anon\",\"clearResourceTimings\":\"fn:anon\",\"resourcesBufferCache\":\"object\"},function:encodeURIComponent(1 args),function:Array(1 args),function:TextEncoder(0 args),function:Date(7 args),{},function:Uint8Array(3 args),{\"location\":\"object\",\"getElementById\":\"fn:getElementById\",\"getElementsByTagName\":\"fn:getElementsByTagName\",\"querySelector\":\"fn:querySelector\",\"querySelectorAll\":\"fn:querySelectorAll\",\"evaluate\":\"fn:ev,function:setTimeout(1 args),function:RegExp(2 args),function:unescape(1 args),function:parseInt(2 args),function:Object(1 args),{},null,function:Set(0 args)](26 items)",
+    "$1": "{\"0\":100,\"1\":101,\"2\":102,\"3\":103,\"4\":104,\"5\":1040,\"6\":105,\"7\":106,\"8\":107,\"9\":108,\"10\":109,\"11\":110,\"12\":111,\"13\":1090,\"14\":203,\"15\":204,\"16\":301,\"17\":401,\"18\":402,\"19\":403,\"20\":404,\"21\":501,\"22\":995,\"23\":996,\"24\":997,\"25\":998,\"26\":5742,\"27\":true,\"28\":601,\"29\":602,\"30\":603,\"31\":604,\"32\":605,\"33\":606,\"34\":700,\"35\":\"fn:_0x30ce91\",\"36\":\"fn:_0x30ce91\",\"37\":\"fn:_0x30ce91\",\"38\":\"fn:_0x30ce91\",\"39\":\"fn:_0x30ce91\",\"40\":\"fn:_0x30ce91\",\"41\":\"fn:_0x30ce91\",\"42\":\"fn:_0x30ce91\",\"43\":\"fn:_0x30ce91\",\"44\":\"fn:_...(+34 more)"
+  },
+  "browser": {
+    "navigator": {
+      "pdfViewerEnabled": true,
+      "doNotTrack": "unspecified",
+      "maxTouchPoints": 0,
+      "oscpu": "Intel Mac OS X 10.15",
+      "vendor": "",
+      "vendorSub": "",
+      "productSub": "20100101",
+      "cookieEnabled": true,
+      "buildID": "20181001000000",
+      "globalPrivacyControl": false,
+      "webdriver": false,
+      "hardwareConcurrency": 8,
+      "appCodeName": "Mozilla",
+      "appName": "Netscape",
+      "appVersion": "5.0 (Macintosh)",
+      "platform": "MacIntel",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:153.0) Gecko/20100101 Firefox/153.0",
+      "product": "Gecko",
+      "language": "zh-CN",
+      "onLine": true
+    },
+    "screen": {
+      "availWidth": 1920,
+      "availHeight": 1004,
+      "width": 1920,
+      "height": 1080,
+      "colorDepth": 30,
+      "pixelDepth": 30,
+      "top": 244,
+      "left": -1920,
+      "availTop": 0,
+      "availLeft": 0,
+      "mozOrientation": "landscape-primary",
+      "onmozorientationchange": null,
+      "orientation": {}
+    },
+    "location": {
+      "href": "https://www.xiaohongshu.com/explore",
+      "host": "www.xiaohongshu.com",
+      "hostname": "www.xiaohongshu.com",
+      "origin": "https://www.xiaohongshu.com",
+      "protocol": "https:",
+      "pathname": "/explore",
+      "search": ""
+    },
+    "document": {
+      "URL": "https://www.xiaohongshu.com/explore",
+      "referrer": "",
+      "charset": "UTF-8",
+      "cookieEnabled": true,
+      "designMode": "off",
+      "hidden": false,
+      "visibilityState": "visible",
+      "readyState": "complete",
+      "domain": "www.xiaohongshu.com"
+    }
+  },
+  "mnsv2_analysis": {
+    "name": "_0x30ce91",
+    "iiI": "27188 (数字常量，可能是版本/配置ID)",
+    "iIi": "26 (数字常量，$0 数组长度)",
+    "iII": "function _0x1233dd (JSVMP dispatcher，8参数)",
+    "Iii": "1 (执行状态标记)",
+    "IiI": "环境数据容器 (0/1=d/$0/$1/$2)",
+    "env_mechanism": "预采集模式：初始化时将浏览器环境和构造函数存入 $0 数组(依赖索引)，签名时通过 $0[N] 索引引用，运行时不再读全局 navigator/document 等",
+    "note": "环境指纹在初始化时冻结进 ΙIΙ[0] 和 $0，后续签名不依赖实时浏览器环境"
+  },
+  "mnsv2_deps": {
+    "description": "mnsv2.ΙIΙ.$0 运行时依赖数组（预采集的环境依赖）",
+    "length": 26,
+    "items": [
+      {
+        "idx": 0,
+        "type": "undefined"
+      },
+      {
+        "idx": 1,
+        "type": "empty_obj",
+        "desc": "空对象引用"
+      },
+      {
+        "idx": 2,
+        "type": "window_env",
+        "desc": "ΙIΙ[0] (346 keys) window 环境对象清单"
+      },
+      {
+        "idx": 3,
+        "type": "undefined"
+      },
+      {
+        "idx": 4,
+        "type": "performance",
+        "desc": "performance 对象（含 polyfill）"
+      },
+      {
+        "idx": 5,
+        "type": "function",
+        "name": "encodeURIComponent"
+      },
+      {
+        "idx": 6,
+        "type": "function",
+        "name": "Array"
+      },
+      {
+        "idx": 7,
+        "type": "function",
+        "name": "TextEncoder"
+      },
+      {
+        "idx": 8,
+        "type": "function",
+        "name": "Date"
+      },
+      {
+        "idx": 9,
+        "type": "empty_obj",
+        "desc": "空对象引用"
+      },
+      {
+        "idx": 10,
+        "type": "function",
+        "name": "Uint8Array"
+      },
+      {
+        "idx": 11,
+        "type": "document",
+        "desc": "document 对象（location/getElementById/querySelector等）"
+      },
+      {
+        "idx": 12,
+        "type": "function",
+        "name": "setTimeout"
+      },
+      {
+        "idx": 13,
+        "type": "function",
+        "name": "RegExp"
+      },
+      {
+        "idx": 14,
+        "type": "function",
+        "name": "unescape"
+      },
+      {
+        "idx": 15,
+        "type": "function",
+        "name": "parseInt"
+      },
+      {
+        "idx": 16,
+        "type": "function",
+        "name": "Object"
+      },
+      {
+        "idx": 17,
+        "type": "empty_obj",
+        "desc": "空对象引用"
+      },
+      {
+        "idx": 18,
+        "type": "null"
+      },
+      {
+        "idx": 19,
+        "type": "function",
+        "name": "Set"
+      },
+      {
+        "idx": 20,
+        "type": "function",
+        "name": "Function"
+      },
+      {
+        "idx": 21,
+        "type": "function",
+        "name": "String"
+      },
+      {
+        "idx": 22,
+        "type": "function",
+        "name": "Error"
+      },
+      {
+        "idx": 23,
+        "type": "undefined"
+      },
+      {
+        "idx": 24,
+        "type": "function",
+        "name": "Event"
+      },
+      {
+        "idx": 25,
+        "type": "empty_obj",
+        "desc": "空对象引用"
+      }
+    ]
+  }
+};

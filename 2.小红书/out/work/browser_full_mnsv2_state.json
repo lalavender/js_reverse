@@ -1,0 +1,96 @@
+{
+  "bytecodeOffset": 27188,
+  "envLength": 26,
+  "dispatcherName": "_0x1233dd",
+  "$0": [
+    null,
+    "obj:Object",
+    "obj:Window",
+    null,
+    "obj:Performance",
+    "fn:encodeURIComponent",
+    "fn:Array",
+    "fn:TextEncoder",
+    "fn:Date",
+    "obj:Object",
+    "fn:Uint8Array",
+    "obj:HTMLDocument",
+    "fn:setTimeout",
+    "fn:RegExp",
+    "fn:unescape",
+    "fn:parseInt",
+    "fn:Object",
+    "obj:Navigator",
+    null,
+    "fn:Set",
+    "fn:Function",
+    "fn:String",
+    "fn:Error",
+    null,
+    "fn:Event",
+    "obj:Object"
+  ],
+  "$0_keys": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "9",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "d",
+    "$0"
+  ],
+  "fnProps": [
+    {
+      "key": "IIΙ",
+      "type": "number"
+    },
+    {
+      "key": "IΙI",
+      "type": "number"
+    },
+    {
+      "key": "IΙΙ",
+      "type": "function"
+    },
+    {
+      "key": "ΙII",
+      "type": "number"
+    },
+    {
+      "key": "ΙIΙ",
+      "type": "object"
+    },
+    {
+      "key": "name",
+      "type": "string"
+    },
+    {
+      "key": "length",
+      "type": "number"
+    },
+    {
+      "key": "prototype",
+      "type": "object"
+    }
+  ]
+}

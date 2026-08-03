@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>小红书 mnsv2 测试</title>
+<style>
+  body{font-family:monospace;background:#1e1e1e;color:#d4d4d4;padding:20px}
+  pre{background:#252526;padding:10px;border-radius:4px}
+  .ok{color:#4ec9b0}.err{color:#f44747}.info{color:#dcdcaa}
+  button{background:#0e639c;color:#fff;border:none;padding:8px 16px;border-radius:4px;cursor:pointer}
+</style></head>
+<body>
+<h1>小红书 mnsv2 签名测试</h1>
+<button onclick="loadCode()">加载 code.js</button>
+<button onclick="testSign()">测试签名</button>
+<button onclick="inspectEnv()">检查环境</button>
+<pre id="out">就绪</pre>
+<script>
+function log(msg,c){document.getElementById('out').innerHTML+='\n<span style="color:'+(c||'#dcdcaa')+'">> '+msg+'</span>'}
+function loadCode(){
+  var s=document.createElement('script');
+  s.src='./code.js';
+  s.onload=function(){log('code.js 加载完成','ok');log('mnsv2: '+typeof window.mnsv2,'ok')};
+  s.onerror=function(){log('加载失败','err')};
+  document.head.appendChild(s)
+}
+function testSign(){
+  if(typeof window.mnsv2!=='function'){log('请先加载 code.js','err');return}
+  try{
+    var s=window.mnsv2('/api/redcaptcha/v2/getconfig{}','701d7db129f79737abc1c57cc97e69da','040a1d360bddd5d9c6fe7097ff1437e0');
+    log('签名: '+s,'ok');log('长度: '+s.length,'ok')
+  }catch(e){log('错误: '+e.message,'err')}
+}
+function inspectEnv(){
+  [['window',typeof window],['document',typeof document],['document.cookie',document&&document.cookie?'有':'无'],
+   ['navigator',typeof navigator],['performance',typeof performance],['crypto',typeof crypto],
+   ['insight',typeof window.insight],['xhsFingerprintV3',typeof window.xhsFingerprintV3],
+   ['mnsv2',typeof window.mnsv2],['btoa',typeof btoa]].forEach(function(x){
+    log(x[0]+': '+(x[1]!=='undefined'?'✅ '+x[1]:'❌ undefined'),x[1]!=='undefined'?'ok':'err')
+  })
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+{
+  "length": 0,
+  "name": "_0x30ce91",
+  "prototype": [
+    "constructor"
+  ],
+  "attr_IIΙ": {
+    "type": "number",
+    "isArray": false,
+    "val": 27188
+  },
+  "attr_IΙΙ": {
+    "type": "function",
+    "isArray": false
+  },
+  "attr_ΙII": {
+    "type": "number",
+    "isArray": false,
+    "val": 1
+  },
+  "attr_ΙIΙ": {
+    "type": "object",
+    "isArray": false,
+    "keys": [
+      "0",
+      "d",
+      "$2",
+      "$0",
+      "$1",
+      "length"
+    ],
+    "len": 6
+  }
+}

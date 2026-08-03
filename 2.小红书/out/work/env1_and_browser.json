@@ -1,0 +1,77 @@
+{
+  "env1": "NO_ENV1",
+  "navigator": {
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:153.0) Gecko/20100101 Firefox/153.0",
+    "platform": "MacIntel",
+    "language": "zh-CN",
+    "languages": [
+      "zh-CN",
+      "en-US",
+      "en"
+    ],
+    "cookieEnabled": true,
+    "doNotTrack": "unspecified",
+    "hardwareConcurrency": 8,
+    "maxTouchPoints": 0,
+    "vendor": "",
+    "vendorSub": "",
+    "product": "Gecko",
+    "productSub": "20100101",
+    "appCodeName": "Mozilla",
+    "appName": "Netscape",
+    "appVersion": "5.0 (Macintosh)",
+    "buildID": "20181001000000",
+    "oscpu": "Intel Mac OS X 10.15",
+    "webdriver": false,
+    "mimeTypesCount": 2,
+    "pluginsCount": 5
+  },
+  "screen": {
+    "width": 1920,
+    "height": 1080,
+    "availWidth": 1920,
+    "availHeight": 1004,
+    "colorDepth": 30,
+    "pixelDepth": 30,
+    "top": 244,
+    "left": -1920,
+    "availTop": 0,
+    "availLeft": 0,
+    "orientation": "landscape-primary"
+  },
+  "location": {
+    "href": "https://www.xiaohongshu.com/explore",
+    "host": "www.xiaohongshu.com",
+    "hostname": "www.xiaohongshu.com",
+    "origin": "https://www.xiaohongshu.com",
+    "protocol": "https:",
+    "pathname": "/explore",
+    "search": "",
+    "hash": ""
+  },
+  "document": {
+    "URL": "https://www.xiaohongshu.com/explore",
+    "documentURI": "https://www.xiaohongshu.com/explore",
+    "baseURI": "https://www.xiaohongshu.com/explore",
+    "referrer": "",
+    "title": "小红书 - 你的生活兴趣社区",
+    "charset": "UTF-8",
+    "contentType": "text/html",
+    "designMode": "off",
+    "dir": "",
+    "hidden": false,
+    "visibilityState": "visible",
+    "readyState": "complete",
+    "cookieLen": 538,
+    "referrerLen": 0,
+    "domain": "www.xiaohongshu.com",
+    "lastModified": "07/27/2026 09:26:03"
+  },
+  "perf_now": 78094,
+  "perf_timing": "0 keys",
+  "perf_memory": null,
+  "timezone": {
+    "offset": -480
+  },
+  "canvas_fingerprint": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAQAAAAEACAYAAABccqhmAAAF60lEQVR4Xu3YT6hvVR3G4fdIEWqBosPA6BKYIA2CRuIsgoSEMjKCRqUU1UClAsFAuUSDghwISjQyIhwkUSBFGFwKEYOkQTSIBqEIhU7sH3a7cY6XQxMvvyv05Uvv88zWXp"
+}
